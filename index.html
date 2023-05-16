@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- displays site properly based on user's device -->
+    <meta name="description" content="Pricing Component with toggle button" />
+    <meta
+      name="keywords"
+      content="Frontend Mentor,Pricing Component with toggle button, _nehal, Responsive Designs"
+    />
+
+    <!-- icon linking -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Linking Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>
+      Pricing Component with toggle buttonPricing Component with toggle button
+    </title>
+  </head>
+  <body class="flex-col flex-c flex-wrap">
+    <main>
+      <div class="container flex-col flex-c">
+        <div class="toggle flex-col flex-c">
+          <h1 class="main__heading--sr-only">Our Pricing</h1>
+          <div class="toggle-btn fs-small flex-row flex-c">
+            <p>Annually</p>
+            <button class="switch" title="Toggle the switch">
+              <span class="circle" title="Circular toggle element"> </span>
+            </button>
+            <p>Monthly</p>
+          </div>
+        </div>
+        <div class="cards flex-row flex-c">
+          <div class="l-card flex-col fw-700 t-center h-100">
+            <h2 class="fs-medium">Basic</h2>
+            <h3 class="dollar fs-xlarge flex-row flex-c ">
+              <span class="fs-large">$</span>199.99
+            </h3>
+            <h3 class="xdollar fs-xlarge flex-row flex-c hidden">
+              <span class="fs-large">$</span>19.99
+            </h3>
+            <ul class="flex-col list fs-small">
+              <li><hr class="center" /></li>
+              <li class="li-item">500 GB Storage</li>
+              <li><hr class="center" /></li>
+              <li class="li-item">2 Users Allowed</li>
+              <li><hr class="center" /></li>
+              <li class="li-item">Send up to 3 GB</li>
+              <li><hr class="center" /></li>
+            </ul>
+            <button class="btn-s uppercase fs-xsmall letter-spacing-1 center">
+              learn more
+            </button>
+          </div>
+          <div class="m-card flex-col fancy fw-700 t-center h-100">
+            <h2 class="fs-medium">Professional</h2>
+            <h3 class="dollar fs-xlarge flex-row flex-c">
+              <span class="fs-large">$</span>249.99
+            </h3>
+            <h3 class="xdollar fs-xlarge flex-row flex-c hidden">
+              <span class="fs-large">$</span>24.99
+            </h3>
+            <ul class="flex-col list fs-small">
+              <li><hr class="center" /></li>
+              <li class="li-item">1 TB Storage</li>
+              <li><hr class="center" /></li>
+              <li class="li-item">5 Users Allowed</li>
+              <li><hr class="center" /></li>
+              <li class="li-item">Send up to 10 GB</li>
+              <li><hr class="center" /></li>
+            </ul>
+            <button class="btn uppercase fs-xsmall letter-spacing-1 center">
+              learn more
+            </button>
+          </div>
+          <div class="r-card flex-col fw-700 t-center center h-100">
+            <h2 class="fs-medium">Master</h2>
+            <h3 class="dollar fs-xlarge flex-row flex-c">
+              <span class="fs-large">$</span>399.99
+            </h3>
+            <h3 class="xdollar fs-xlarge flex-row flex-c hidden">
+              <span class="fs-large">$</span>39.99
+            </h3>
+            <ul class="flex-col list fs-small">
+              <li><hr class="center" /></li>
+              <li class="li-item">2 TB Storage</li>
+              <li><hr class="center" /></li>
+              <li class="li-item">10 Users Allowed</li>
+              <li><hr class="center" /></li>
+              <li class="li-item">Send up to 20 GB</li>
+              <li><hr class="center" /></li>
+            </ul>
+            <button class="btn-s uppercase fs-xsmall letter-spacing-1 center">
+              learn more
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
