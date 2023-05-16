@@ -88,7 +88,7 @@ body::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
 }
 body {
-  min-height: 100vh;
+  min-height: 109vh;
   background: url("../images/bg-top.svg"), url("../images/bg-bottom.svg"),
     var(--Very-Light-Grayish-Blue);
   background-position: top right, bottom left;
